@@ -3,6 +3,7 @@ package com.example.applicationkeuanganpribadi
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import kotlinx.android.synthetic.main.activity_pinn.*
 
 class PinnActivity : AppCompatActivity() {
@@ -12,5 +13,9 @@ class PinnActivity : AppCompatActivity() {
         btnFinger.setOnClickListener {
             startActivity(Intent(this@PinnActivity,SuccessActivity::class.java))
         }
+    }
+
+    fun clickFinger(view: View) {
+        startActivity(Intent(this@PinnActivity,SuccessActivity::class.java))
     }
 }

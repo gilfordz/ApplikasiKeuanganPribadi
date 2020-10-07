@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_margin="10dp"
+        android:paddingTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/list_bg"
+        tools:ignore="MissingConstraints">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_baseline_brightness_1_24"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="17dp"
+            android:src="@drawable/ic_baseline_account_balance_24" />
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Catatan Keuangan Pribadi"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="3dp"/>
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:text="Balance : Rp. 11,000,000"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="28dp"/>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

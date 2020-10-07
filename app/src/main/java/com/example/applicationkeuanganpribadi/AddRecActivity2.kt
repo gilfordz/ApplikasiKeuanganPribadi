@@ -8,6 +8,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
+import kotlinx.android.synthetic.main.activity_about2.*
+import kotlinx.android.synthetic.main.activity_add_rec2.*
 import kotlinx.android.synthetic.main.activity_curr.*
 
 class AddRecActivity2 : AppCompatActivity() {
@@ -20,6 +22,9 @@ class AddRecActivity2 : AppCompatActivity() {
         val spinnerCustomAdapter =
             CurrActivity.SpinnerCustomAdapter(applicationContext, image, imageName);
         spinner.adapter = spinnerCustomAdapter
+        addRec.setOnClickListener {
+            startActivity(Intent(this@AddRecActivity2,ListRecordActivity::class.java))
+        }
     }
     class SpinnerCustomAdapter(
         internal var context: Context,

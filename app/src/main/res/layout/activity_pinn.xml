@@ -209,7 +209,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:gravity="center|bottom"
-                android:id="@+id/btnFinger">
+                android:id="@+id/btnFinger"
+                android:clickable="true">
             </Button>
                 <ImageView
                     android:layout_width="wrap_content"
@@ -219,7 +220,8 @@
                     android:layout_marginStart="15dp"
                     android:layout_marginEnd="25dp"
                     android:contentDescription="@string/todo"
-                    android:src="@drawable/ic_baseline_fingerprint_24" />
+                    android:src="@drawable/ic_baseline_fingerprint_24"
+                    android:onClick="clickFinger"/>
             </RelativeLayout>
         </TableRow>
     </TableLayout>
