@@ -3,9 +3,9 @@ package com.example.applicationkeuanganpribadi
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class SetCategoryActivity : AppCompatActivity() {
+class AddBudgetActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_set_category)
+        setContentView(R.layout.activity_add_budget)
     }
 }
