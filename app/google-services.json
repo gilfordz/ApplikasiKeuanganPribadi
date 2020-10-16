@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "158553750605",
+    "firebase_url": "https://applikasikeuanganpribadi.firebaseio.com",
+    "project_id": "applikasikeuanganpribadi",
+    "storage_bucket": "applikasikeuanganpribadi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158553750605:android:65454c27f18ccb71b9f004",
+        "android_client_info": {
+          "package_name": "com.example.applicationkeuanganpribadi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158553750605-vg4mr5pism3i175iso1pod9ih0rpvo9g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArkrRZY72qzFl6ZSftKaxjIoHkqVfNcn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158553750605-vg4mr5pism3i175iso1pod9ih0rpvo9g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
